@@ -1,0 +1,16 @@
+{
+  "name": "Gif Replacer",
+  "description": "Replaces gifs on a webpage with a random placeholder image.",
+  "version": "3.0",
+  "manifest_version": 2,
+  "background" : {
+    "scripts":["background.js"]
+
+  },
+  "browser_action": {
+   "default_title": "GifReplacer"
+  },
+  "permissions": [
+   "activeTab"
+]
+}
